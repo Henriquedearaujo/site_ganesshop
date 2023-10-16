@@ -1,4 +1,4 @@
-# site_ganesshop
+# site_ganesshop - HTML - CSS
 
 ## Objetvo deste projeto:
 > compreender os detalhes do projeto e seus elementos;
