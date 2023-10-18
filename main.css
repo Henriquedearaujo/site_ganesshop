@@ -71,6 +71,11 @@ section h2 {
     margin-bottom: 16px;
 }
 
+section h3 {
+    margin:0px !important;
+    padding: 0px !important;
+}
+
 section {
     color: #182c61;
 }
@@ -80,6 +85,7 @@ section p {
 }
 
 .store-front {
+    width: 100%;
     margin-right: 32px;
 }
 
@@ -123,6 +129,10 @@ input:focus, textarea:focus {
 .social-link img {
     height: 24px;
 }
+.social-link{
+    display: flex;
+    justify-content: center;
+}
 
 .social-link li {
     display: inline;
@@ -131,6 +141,8 @@ input:focus, textarea:focus {
 
 .social-link li a {
     text-decoration: none;
+    align-items: center;
+    
 }
 
 section h3 {
@@ -143,4 +155,11 @@ footer {
     color: #ecf0f1;
 }
 
+@media screen and (max-width: 768px) {
+    .container,.contact-methods{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
 
